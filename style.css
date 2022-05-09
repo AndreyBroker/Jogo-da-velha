@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    background-color: rgba(193, 193, 202, 0.494); 
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.24);
+    border: 3px solid rgb(119, 117, 117);
+    display: inline-block;
+}
+
+.x{
+
+    position: relative;
+
+}
+
+.x::after{
+    position: absolute;
+    content: "\2694";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.o{
+
+    position:relative;
+
+}
+
+.o::after{
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+ .control{
+    display: none;
+
+} 
+
+button{
+
+    margin: 10px;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: 1px solid;
+    background-color: rgba(128, 128, 128, 0.137);
+    width: 90px;
+    height: 40px;
+
+} 
+
+
+
+
+
+
+
+
+
+
